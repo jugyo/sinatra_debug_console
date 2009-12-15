@@ -10,7 +10,6 @@ begin
     gem.email = "jugyo.org@gmail.com"
     gem.homepage = "http://github.com/jugyo/sinatra_debug_console"
     gem.authors = ["jugyo"]
-    gem.add_development_dependency "thoughtbot-shoulda", ">= 0"
   end
 rescue LoadError
   puts "Jeweler (or a dependency) not available. Install it with: sudo gem install jeweler"
