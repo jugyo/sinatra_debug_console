@@ -1,16 +1,3 @@
-# = sinatra_debug_console
-#
-# Debug console for sinatra
-#
-# == Notice
-#
-# Rack::Auth::Basic is used to authorization.
-#
-# == Usage
-#
-#     require 'sinatra_debug_console'
-#     Sinatra::DebugConsole.config('admin', 'password')
-
 get '/debug_console' do
   require_administrative_privileges
   haml <<HAML, :layout => false

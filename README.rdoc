@@ -11,7 +11,7 @@ Rack::Auth::Basic is used to authorization.
 == Usage
 
   require 'sinatra_debug_console'
-  Sinatra::DebugConsole.config('admin', 'password')
+  Sinatra::DebugConsole.config(USERNAME, PASSWORD)
 
 == Copyright
 
