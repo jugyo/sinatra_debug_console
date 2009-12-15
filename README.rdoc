@@ -1,0 +1,18 @@
+= sinatra_debug_console
+
+Debug console for sinatra
+
+http://farm3.static.flickr.com/2659/4187659132_f86337a7bb.jpg
+
+== Notice
+
+Rack::Auth::Basic is used to authorization.
+
+== Usage
+
+  require 'sinatra_debug_console'
+  Sinatra::DebugConsole.config('admin', 'password')
+
+== Copyright
+
+Copyright (c) 2009 jugyo. See LICENSE for details.
